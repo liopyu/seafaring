@@ -1,6 +1,6 @@
 <h1 style="color: #95a5a6;">Lio's Seafaring Dungeons</h1>
 <h2 style="color: #95a5a6;">Overview</h2>
-<p>Welcome to <strong><a href="https://www.curseforge.com/minecraft/mc-mods/lios-seafaring-dungeons">Lio's Seafaring Dungeons</a></strong>! This mod adds a variety of new dungeons, both underwater and underground, to your Minecraft world. Inspired by Doomlike Dungeons, you'll find unique structures filled with custom loot, challenging enemies, and boss rooms waiting to be conquered.</p>
+<p>Welcome to <strong>Lio's Seafaring Dungeons</strong>! This mod adds a variety of new dungeons, both underwater and underground, to your Minecraft world. Inspired by Doomlike Dungeons, you'll find unique structures filled with custom loot, challenging enemies, and boss rooms waiting to be conquered.</p>
 <h2 style="color: #95a5a6;">Dungeon Types</h2>
 <ul>
 <li><strong>Mossy Ocean Dungeons</strong> &ndash; These dungeons spawn in warmer ocean climates</li>
