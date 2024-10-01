@@ -1001,11 +1001,6 @@
         {
           "type": "minecraft:item",
           "weight": 80,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly"
-            }
-          ],
           "name": "minecraft:nautilus_shell"
         },
         {

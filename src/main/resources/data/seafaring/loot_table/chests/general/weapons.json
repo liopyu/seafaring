@@ -18,8 +18,10 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -46,8 +48,10 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -73,8 +77,10 @@
           "weight": 5,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:set_name",
@@ -90,7 +96,7 @@
                 "minecraft:sharpness": 5,
                 "minecraft:looting": 3,
                 "minecraft:fire_aspect": 2,
-                "minecraft:sweeping": 3
+                "minecraft:sweeping_edge": 3
               }
             }
           ]
@@ -101,8 +107,10 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Unbreakable:1b}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:unbreakable": {}
+              }
             },
             {
               "function": "minecraft:set_name",

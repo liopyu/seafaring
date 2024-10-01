@@ -251,8 +251,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_healing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
             }
           ]
         },
@@ -262,8 +262,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:regeneration\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:regeneration"
             }
           ]
         },
@@ -273,8 +273,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_regeneration\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_regeneration"
             }
           ]
         },
@@ -284,8 +284,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:long_water_breathing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_water_breathing"
             }
           ]
         },
@@ -295,8 +295,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:swiftness"
             }
           ]
         },
@@ -306,8 +306,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:strong_swiftness\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_swiftness"
             }
           ]
         },
@@ -317,8 +317,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:night_vision\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:night_vision"
             }
           ]
         },
@@ -328,8 +328,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:long_night_vision\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_night_vision"
             }
           ]
         },
@@ -339,8 +339,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:fire_resistance"
             }
           ]
         },
@@ -350,8 +350,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:long_fire_resistance\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_fire_resistance"
             }
           ]
         },
@@ -361,8 +361,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:invisibility\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:invisibility"
             }
           ]
         },
@@ -372,8 +372,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:long_invisibility\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_invisibility"
             }
           ]
         },
@@ -383,8 +383,8 @@
           "name": "minecraft:potion",
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Potion:\"minecraft:healing\"}"
+              "function": "minecraft:set_potion",
+              "id": "minecraft:healing"
             }
           ]
         },
@@ -485,8 +485,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:5},{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:looting\",lvl:2},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 5,
+                "minecraft:unbreaking": 3,
+                "minecraft:looting": 2,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -504,8 +509,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:4},{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:fortune\",lvl:2},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 4,
+                "minecraft:unbreaking": 3,
+                "minecraft:fortune": 2,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -523,8 +533,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:4},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:efficiency\",lvl:5},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:unbreaking": 2,
+                "minecraft:efficiency": 5,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -542,8 +557,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:3},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:silk_touch\",lvl:1},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 3,
+                "minecraft:unbreaking": 2,
+                "minecraft:silk_touch": 1,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -561,8 +581,14 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4},{id:\"minecraft:respiration\",lvl:2},{id:\"minecraft:aqua_affinity\",lvl:1},{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4,
+                "minecraft:respiration": 2,
+                "minecraft:aqua_affinity": 1,
+                "minecraft:unbreaking": 3,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -580,8 +606,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:thorns\",lvl:1},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 3,
+                "minecraft:unbreaking": 2,
+                "minecraft:thorns": 1,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -599,8 +630,12 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4},{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4,
+                "minecraft:unbreaking": 3,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -618,8 +653,14 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4},{id:\"minecraft:feather_falling\",lvl:3},{id:\"minecraft:depth_strider\",lvl:2},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4,
+                "minecraft:feather_falling": 3,
+                "minecraft:depth_strider": 2,
+                "minecraft:unbreaking": 2,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -637,8 +678,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:sharpness\",lvl:4},{id:\"minecraft:unbreaking\",lvl:3},{id:\"minecraft:looting\",lvl:2},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:sharpness": 4,
+                "minecraft:unbreaking": 3,
+                "minecraft:looting": 2,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -656,8 +702,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:efficiency\",lvl:3},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:fortune\",lvl:1},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:efficiency": 3,
+                "minecraft:unbreaking": 2,
+                "minecraft:fortune": 1,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -675,8 +726,12 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 3,
+                "minecraft:unbreaking": 2,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -694,8 +749,12 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 3,
+                "minecraft:unbreaking": 2,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
@@ -713,8 +772,13 @@
               }
             },
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4},{id:\"minecraft:feather_falling\",lvl:2},{id:\"minecraft:unbreaking\",lvl:2},{id:\"minecraft:mending\",lvl:1}]}"
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:protection": 4,
+                "minecraft:feather_falling": 2,
+                "minecraft:unbreaking": 2,
+                "minecraft:mending": 1
+              }
             }
           ]
         },
