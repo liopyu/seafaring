@@ -1,0 +1,9 @@
+{
+  "type": "bastion_remnant",
+  "biomes": "#seafaring:has_structure/undergrounddungeon",
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "seafaring:undergrounddungeon/base/a1",
+    "size": 4
+  }
+}

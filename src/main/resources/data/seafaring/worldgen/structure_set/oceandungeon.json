@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "seafaring:mossy_ocean_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "seafaring:mossy_ocean_dungeon2",
+      "weight": 1
+    },
+    {
+      "structure": "seafaring:sandstone_ocean_dungeon",
+      "weight": 1
+    },
+    {
+      "structure": "seafaring:sandstone_ocean_dungeon2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 38,
+    "separation": 10,
+    "salt": 9503895623,
+    "exclusion_zone": {
+      "chunk_count": 16,
+      "other_set": "minecraft:ocean_monuments"
+    }
+  }
+}

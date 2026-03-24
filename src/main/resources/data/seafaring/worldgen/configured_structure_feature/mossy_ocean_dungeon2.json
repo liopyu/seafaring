@@ -1,0 +1,9 @@
+{
+  "type": "bastion_remnant",
+  "biomes": "#seafaring:has_structure/oceandungeon/mossy_ocean_dungeon",
+  "spawn_overrides": {},
+  "config": {
+    "start_pool": "seafaring:oceandungeon/start/mossy/d1",
+    "size": 7
+  }
+}
